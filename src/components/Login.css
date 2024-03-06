@@ -1,0 +1,130 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+/*Start Global Style*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#e9ebee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    font-family: sans-serif;
+}
+/*Start Login Style*/
+.login{
+    float:left;
+    background-color: #fafafa;
+    height: auto;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    padding: 80px;
+    
+}
+.login h1{
+    margin-bottom: 40px;
+    font-size: 2.5em;
+}
+
+input[type="email"] , input[type="password"]{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #eeeeef;
+}
+
+.login span{
+    float: right;
+}
+.login a{
+    float: right;
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s all ease-in-out;
+}
+.login a:hover{color: #9526a9;font-weight: bold}
+.login button{
+    width: 80%;
+    margin: 30px 0;
+    padding: 10px;
+    border: none;
+    background-color: #219e16;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+.login button:hover{
+    width:97%;
+    font-size: 22px;
+    border-radius: 5px;
+    
+}
+.login hr{
+    width: 30%;
+    display: inline-block
+}
+
+.login p{
+    display: inline-block;
+    margin: 0px 10px 30px;
+}
+.login ul{
+    list-style: none;
+    margin-bottom:40px;  
+}
+.login ul li{
+    display: inline-block;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.login ul li:hover{opacity: 0.6}
+.login ul li:last-child{margin-right: 0}
+.login .copyright{
+    display: inline-block;
+    float: none;
+}
